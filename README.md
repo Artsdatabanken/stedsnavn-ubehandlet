@@ -1,5 +1,5 @@
 # stedsnavn-ubehandlet
-Kildedata for lasting av stedsnavn
+Kildedata for lasting av stedsnavn.  Brukes av [stedsnavn-lastejobb](https://github.com/Artsdatabanken/stedsnavn-lastejobb)
 
 ### StedsnavnForVanligBruk.xsd
 
