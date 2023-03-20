@@ -77,5 +77,10 @@
   "havnehage": "pets",
   "fyllplass": "delete",
   "annenIndustri-OgLagerbygning": "build",
-  "fabrikk": "build"
+  "fabrikk": "build",
+  "busstasjon": "directions_bus",
+  "fjellkjedeISjø": "terrain",
+  "fjelltoppISjø": "terrain",
+  "moreneryggISjø": "terrain",
+  "vulkanISjø": "terrain"
 }
