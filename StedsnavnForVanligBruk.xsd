@@ -82,12 +82,17 @@ Det presiseres at fylkesnummer alltid skal ha 2 sifre, dvs. eventuelt med ledend
     <restriction base="string">
       <enumeration value="01">
         <annotation>
-          <documentation>Østfold</documentation>
+          <documentation>Østfold (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="30">
+        <annotation>
+          <documentation>Viken</documentation>
         </annotation>
       </enumeration>
       <enumeration value="02">
         <annotation>
-          <documentation>Akershus</documentation>
+          <documentation>Akershus (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="03">
@@ -97,37 +102,52 @@ Det presiseres at fylkesnummer alltid skal ha 2 sifre, dvs. eventuelt med ledend
       </enumeration>
       <enumeration value="04">
         <annotation>
-          <documentation>Hedmark</documentation>
+          <documentation>Hedmark (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="34">
+        <annotation>
+          <documentation>Innlandet</documentation>
         </annotation>
       </enumeration>
       <enumeration value="05">
         <annotation>
-          <documentation>Oppland</documentation>
+          <documentation>Oppland (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="06">
         <annotation>
-          <documentation>Buskerud</documentation>
+          <documentation>Buskerud (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="07">
         <annotation>
-          <documentation>Vestfold</documentation>
+          <documentation>Vestfold (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="38">
+        <annotation>
+          <documentation>Telemark og Vestfold</documentation>
         </annotation>
       </enumeration>
       <enumeration value="08">
         <annotation>
-          <documentation>Telemark</documentation>
+          <documentation>Telemark (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="09">
         <annotation>
-          <documentation>Aust-Agder</documentation>
+          <documentation>Aust-Agder (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="42">
+        <annotation>
+          <documentation>Agder</documentation>
         </annotation>
       </enumeration>
       <enumeration value="10">
         <annotation>
-          <documentation>Vest-Agder</documentation>
+          <documentation>Vest-Agder (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="11">
@@ -137,7 +157,12 @@ Det presiseres at fylkesnummer alltid skal ha 2 sifre, dvs. eventuelt med ledend
       </enumeration>
       <enumeration value="12">
         <annotation>
-          <documentation>Hordaland</documentation>
+          <documentation>Hordaland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="46">
+        <annotation>
+          <documentation>Vestland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="13">
@@ -147,7 +172,7 @@ Det presiseres at fylkesnummer alltid skal ha 2 sifre, dvs. eventuelt med ledend
       </enumeration>
       <enumeration value="14">
         <annotation>
-          <documentation>Sogn og Fjordane</documentation>
+          <documentation>Sogn og Fjordane (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="15">
@@ -172,12 +197,17 @@ Det presiseres at fylkesnummer alltid skal ha 2 sifre, dvs. eventuelt med ledend
       </enumeration>
       <enumeration value="19">
         <annotation>
-          <documentation>Troms - Romsa</documentation>
+          <documentation>Troms - Romsa (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="54">
+        <annotation>
+          <documentation>Troms og Finnmark</documentation>
         </annotation>
       </enumeration>
       <enumeration value="20">
         <annotation>
-          <documentation>Finnmark - Finnmárku</documentation>
+          <documentation>Finnmark - Finnmárku (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="21">
@@ -327,6 +357,11 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
     <restriction base="string">
       <enumeration value="0101">
         <annotation>
+          <documentation>Halden (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3001">
+        <annotation>
           <documentation>Halden</documentation>
         </annotation>
       </enumeration>
@@ -342,20 +377,40 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0104">
         <annotation>
+          <documentation>Moss (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3002">
+        <annotation>
           <documentation>Moss</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0105">
+        <annotation>
+          <documentation>Sarpsborg (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3003">
         <annotation>
           <documentation>Sarpsborg</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0106">
         <annotation>
+          <documentation>Fredrikstad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3004">
+        <annotation>
           <documentation>Fredrikstad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0111">
+        <annotation>
+          <documentation>Hvaler (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3011">
         <annotation>
           <documentation>Hvaler</documentation>
         </annotation>
@@ -377,45 +432,75 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0118">
         <annotation>
+          <documentation>Aremark (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3012">
+        <annotation>
           <documentation>Aremark</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0119">
+        <annotation>
+          <documentation>Marker (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3013">
         <annotation>
           <documentation>Marker</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0121">
         <annotation>
-          <documentation>Rømskog</documentation>
+          <documentation>Rømskog (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3026">
+        <annotation>
+          <documentation>Aurskog-Høland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0122">
         <annotation>
-          <documentation>Trøgstad</documentation>
+          <documentation>Trøgstad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3014">
+        <annotation>
+          <documentation>Indre Østfold</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0123">
         <annotation>
-          <documentation>Spydeberg</documentation>
+          <documentation>Spydeberg (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0124">
         <annotation>
-          <documentation>Askim</documentation>
+          <documentation>Askim (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0125">
         <annotation>
-          <documentation>Eidsberg</documentation>
+          <documentation>Eidsberg (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0127">
+        <annotation>
+          <documentation>Skiptvet (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3015">
         <annotation>
           <documentation>Skiptvet</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0128">
+        <annotation>
+          <documentation>Rakkestad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3016">
         <annotation>
           <documentation>Rakkestad</documentation>
         </annotation>
@@ -442,130 +527,230 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0135">
         <annotation>
+          <documentation>Råde (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3017">
+        <annotation>
           <documentation>Råde</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0136">
         <annotation>
-          <documentation>Rygge</documentation>
+          <documentation>Rygge (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0137">
         <annotation>
-          <documentation>Våler i Østfold</documentation>
+          <documentation>Våler i Østfold (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3018">
+        <annotation>
+          <documentation>Våler</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0138">
         <annotation>
-          <documentation>Hobøl</documentation>
+          <documentation>Hobøl (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0211">
+        <annotation>
+          <documentation>Vestby (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3019">
         <annotation>
           <documentation>Vestby</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0213">
         <annotation>
-          <documentation>Ski</documentation>
+          <documentation>Ski (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3020">
+        <annotation>
+          <documentation>Nordre Follo</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0214">
+        <annotation>
+          <documentation>Ås (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3021">
         <annotation>
           <documentation>Ås</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0215">
         <annotation>
+          <documentation>Frogn (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3022">
+        <annotation>
           <documentation>Frogn</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0216">
+        <annotation>
+          <documentation>Nesodden (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3023">
         <annotation>
           <documentation>Nesodden</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0217">
         <annotation>
-          <documentation>Oppegård</documentation>
+          <documentation>Oppegård (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0219">
+        <annotation>
+          <documentation>Bærum (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3024">
         <annotation>
           <documentation>Bærum</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0220">
         <annotation>
+          <documentation>Asker (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3025">
+        <annotation>
           <documentation>Asker</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0221">
         <annotation>
-          <documentation>Aurskog-Høland</documentation>
+          <documentation>Aurskog-Høland (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0226">
         <annotation>
-          <documentation>Sørum</documentation>
+          <documentation>Sørum (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3030">
+        <annotation>
+          <documentation>Lillestrøm</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0227">
         <annotation>
-          <documentation>Fet</documentation>
+          <documentation>Fet (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0228">
+        <annotation>
+          <documentation>Rælingen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3027">
         <annotation>
           <documentation>Rælingen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0229">
         <annotation>
+          <documentation>Enebakk (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3028">
+        <annotation>
           <documentation>Enebakk</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0230">
+        <annotation>
+          <documentation>Lørenskog (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3029">
         <annotation>
           <documentation>Lørenskog</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0231">
         <annotation>
-          <documentation>Skedsmo</documentation>
+          <documentation>Skedsmo (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0233">
+        <annotation>
+          <documentation>Nittedal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3031">
         <annotation>
           <documentation>Nittedal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0234">
         <annotation>
+          <documentation>Gjerdrum (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3032">
+        <annotation>
           <documentation>Gjerdrum</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0235">
+        <annotation>
+          <documentation>Ullensaker (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3033">
         <annotation>
           <documentation>Ullensaker</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0236">
         <annotation>
-          <documentation>Nes i Akershus</documentation>
+          <documentation>Nes i Akershus (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3034">
+        <annotation>
+          <documentation>Nes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0237">
+        <annotation>
+          <documentation>Eidsvoll (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3035">
         <annotation>
           <documentation>Eidsvoll</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0238">
         <annotation>
+          <documentation>Nannestad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3036">
+        <annotation>
           <documentation>Nannestad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0239">
+        <annotation>
+          <documentation>Hurdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3037">
         <annotation>
           <documentation>Hurdal</documentation>
         </annotation>
@@ -582,15 +767,30 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0402">
         <annotation>
+          <documentation>Kongsvinger (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3401">
+        <annotation>
           <documentation>Kongsvinger</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0403">
         <annotation>
+          <documentation>Hamar (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3403">
+        <annotation>
           <documentation>Hamar</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0412">
+        <annotation>
+          <documentation>Ringsaker (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3411">
         <annotation>
           <documentation>Ringsaker</documentation>
         </annotation>
@@ -602,335 +802,655 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0415">
         <annotation>
+          <documentation>Løten (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3412">
+        <annotation>
           <documentation>Løten</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0417">
+        <annotation>
+          <documentation>Stange (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3413">
         <annotation>
           <documentation>Stange</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0418">
         <annotation>
+          <documentation>Nord-Odal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3414">
+        <annotation>
           <documentation>Nord-Odal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0419">
+        <annotation>
+          <documentation>Sør-Odal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3415">
         <annotation>
           <documentation>Sør-Odal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0420">
         <annotation>
+          <documentation>Eidskog (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3416">
+        <annotation>
           <documentation>Eidskog</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0423">
+        <annotation>
+          <documentation>Grue (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3417">
         <annotation>
           <documentation>Grue</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0425">
         <annotation>
+          <documentation>Åsnes (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3418">
+        <annotation>
           <documentation>Åsnes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0426">
         <annotation>
-          <documentation>Våler i Hedmark</documentation>
+          <documentation>Våler i Hedmark (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3419">
+        <annotation>
+          <documentation>Våler</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0427">
+        <annotation>
+          <documentation>Elverum (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3420">
         <annotation>
           <documentation>Elverum</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0428">
         <annotation>
+          <documentation>Trysil (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3421">
+        <annotation>
           <documentation>Trysil</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0429">
+        <annotation>
+          <documentation>Åmot (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3422">
         <annotation>
           <documentation>Åmot</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0430">
         <annotation>
+          <documentation>Stor-Elvdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3423">
+        <annotation>
           <documentation>Stor-Elvdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0432">
+        <annotation>
+          <documentation>Rendalen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3424">
         <annotation>
           <documentation>Rendalen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0434">
         <annotation>
+          <documentation>Engerdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3425">
+        <annotation>
           <documentation>Engerdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0436">
+        <annotation>
+          <documentation>Tolga (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3426">
         <annotation>
           <documentation>Tolga</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0437">
         <annotation>
+          <documentation>Tynset (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3427">
+        <annotation>
           <documentation>Tynset</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0438">
+        <annotation>
+          <documentation>Alvdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3428">
         <annotation>
           <documentation>Alvdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0439">
         <annotation>
+          <documentation>Folldal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3429">
+        <annotation>
           <documentation>Folldal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0441">
         <annotation>
-          <documentation>Os i Hedmark</documentation>
+          <documentation>Os i Hedmark (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3430">
+        <annotation>
+          <documentation>Os</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0501">
+        <annotation>
+          <documentation>Lillehammer (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3405">
         <annotation>
           <documentation>Lillehammer</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0502">
         <annotation>
+          <documentation>Gjøvik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3407">
+        <annotation>
           <documentation>Gjøvik</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0511">
+        <annotation>
+          <documentation>Dovre (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3431">
         <annotation>
           <documentation>Dovre</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0512">
         <annotation>
+          <documentation>Lesja (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3432">
+        <annotation>
           <documentation>Lesja</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0513">
+        <annotation>
+          <documentation>Skjåk (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3433">
         <annotation>
           <documentation>Skjåk</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0514">
         <annotation>
+          <documentation>Lom (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3434">
+        <annotation>
           <documentation>Lom</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0515">
+        <annotation>
+          <documentation>Vågå (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3435">
         <annotation>
           <documentation>Vågå</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0516">
         <annotation>
+          <documentation>Nord-Fron (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3436">
+        <annotation>
           <documentation>Nord-Fron</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0517">
+        <annotation>
+          <documentation>Sel (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3437">
         <annotation>
           <documentation>Sel</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0519">
         <annotation>
+          <documentation>Sør-Fron (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3438">
+        <annotation>
           <documentation>Sør-Fron</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0520">
+        <annotation>
+          <documentation>Ringebu (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3439">
         <annotation>
           <documentation>Ringebu</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0521">
         <annotation>
+          <documentation>Øyer (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3440">
+        <annotation>
           <documentation>Øyer</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0522">
+        <annotation>
+          <documentation>Gausdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3441">
         <annotation>
           <documentation>Gausdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0528">
         <annotation>
+          <documentation>Østre Toten (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3442">
+        <annotation>
           <documentation>Østre Toten</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0529">
+        <annotation>
+          <documentation>Vestre Toten (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3443">
         <annotation>
           <documentation>Vestre Toten</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0532">
         <annotation>
+          <documentation>Jevnaker (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3053">
+        <annotation>
           <documentation>Jevnaker</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0533">
+        <annotation>
+          <documentation>Lunner (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3054">
         <annotation>
           <documentation>Lunner</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0534">
         <annotation>
+          <documentation>Gran (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3446">
+        <annotation>
           <documentation>Gran</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0536">
+        <annotation>
+          <documentation>Søndre Land (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3447">
         <annotation>
           <documentation>Søndre Land</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0538">
         <annotation>
+          <documentation>Nordre Land (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3448">
+        <annotation>
           <documentation>Nordre Land</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0540">
+        <annotation>
+          <documentation>Sør-Aurdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3449">
         <annotation>
           <documentation>Sør-Aurdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0541">
         <annotation>
+          <documentation>Etnedal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3450">
+        <annotation>
           <documentation>Etnedal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0542">
+        <annotation>
+          <documentation>Nord-Aurdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3451">
         <annotation>
           <documentation>Nord-Aurdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0543">
         <annotation>
+          <documentation>Vestre Slidre (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3452">
+        <annotation>
           <documentation>Vestre Slidre</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0544">
+        <annotation>
+          <documentation>Øystre Slidre (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3453">
         <annotation>
           <documentation>Øystre Slidre</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0545">
         <annotation>
+          <documentation>Vang (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3454">
+        <annotation>
           <documentation>Vang</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0602">
+        <annotation>
+          <documentation>Drammen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3005">
         <annotation>
           <documentation>Drammen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0604">
         <annotation>
+          <documentation>Kongsberg (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3006">
+        <annotation>
           <documentation>Kongsberg</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0605">
+        <annotation>
+          <documentation>Ringerike (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3007">
         <annotation>
           <documentation>Ringerike</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0612">
         <annotation>
+          <documentation>Hole (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3038">
+        <annotation>
           <documentation>Hole</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0615">
+        <annotation>
+          <documentation>Flå (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3039">
         <annotation>
           <documentation>Flå</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0616">
         <annotation>
-          <documentation>Nes i Buskerud</documentation>
+          <documentation>Nes i Buskerud (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3040">
+        <annotation>
+          <documentation>Nes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0617">
+        <annotation>
+          <documentation>Gol (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3041">
         <annotation>
           <documentation>Gol</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0618">
         <annotation>
+          <documentation>Hemsedal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3042">
+        <annotation>
           <documentation>Hemsedal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0619">
+        <annotation>
+          <documentation>Ål (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3043">
         <annotation>
           <documentation>Ål</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0620">
         <annotation>
+          <documentation>Hol (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3044">
+        <annotation>
           <documentation>Hol</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0621">
+        <annotation>
+          <documentation>Sigdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3045">
         <annotation>
           <documentation>Sigdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0622">
         <annotation>
+          <documentation>Krødsherad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3046">
+        <annotation>
           <documentation>Krødsherad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0623">
+        <annotation>
+          <documentation>Modum (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3047">
         <annotation>
           <documentation>Modum</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0624">
         <annotation>
+          <documentation>Øvre Eiker (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3048">
+        <annotation>
           <documentation>Øvre Eiker</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0625">
         <annotation>
-          <documentation>Nedre Eiker</documentation>
+          <documentation>Nedre Eiker (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0626">
+        <annotation>
+          <documentation>Lier (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3049">
         <annotation>
           <documentation>Lier</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0627">
         <annotation>
-          <documentation>Røyken</documentation>
+          <documentation>Røyken (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0628">
         <annotation>
-          <documentation>Hurum</documentation>
+          <documentation>Hurum (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0631">
+        <annotation>
+          <documentation>Flesberg (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3050">
         <annotation>
           <documentation>Flesberg</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0632">
         <annotation>
+          <documentation>Rollag (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3051">
+        <annotation>
           <documentation>Rollag</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0633">
         <annotation>
+          <documentation>Nore og Uvdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3052">
+        <annotation>
           <documentation>Nore og Uvdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0701">
+        <annotation>
+          <documentation>Horten (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3801">
         <annotation>
           <documentation>Horten</documentation>
         </annotation>
@@ -946,6 +1466,11 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
         </annotation>
       </enumeration>
       <enumeration value="0704">
+        <annotation>
+          <documentation>Tønsberg (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3803">
         <annotation>
           <documentation>Tønsberg</documentation>
         </annotation>
@@ -977,17 +1502,27 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0710">
         <annotation>
+          <documentation>Sandefjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3804">
+        <annotation>
           <documentation>Sandefjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0711">
         <annotation>
-          <documentation>Svelvik</documentation>
+          <documentation>Svelvik (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0713">
         <annotation>
-          <documentation>Sande i Vestfold</documentation>
+          <documentation>Sande i Vestfold (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3802">
+        <annotation>
+          <documentation>Holmestrand</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0714">
@@ -997,7 +1532,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0716">
         <annotation>
-          <documentation>Re</documentation>
+          <documentation>Re (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0717">
@@ -1057,95 +1592,185 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0805">
         <annotation>
+          <documentation>Porsgrunn (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3806">
+        <annotation>
           <documentation>Porsgrunn</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0806">
+        <annotation>
+          <documentation>Skien (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3807">
         <annotation>
           <documentation>Skien</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0807">
         <annotation>
+          <documentation>Notodden (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3808">
+        <annotation>
           <documentation>Notodden</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0811">
+        <annotation>
+          <documentation>Siljan (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3812">
         <annotation>
           <documentation>Siljan</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0814">
         <annotation>
+          <documentation>Bamble (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3813">
+        <annotation>
           <documentation>Bamble</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0815">
+        <annotation>
+          <documentation>Kragerø (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3814">
         <annotation>
           <documentation>Kragerø</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0817">
         <annotation>
+          <documentation>Drangedal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3815">
+        <annotation>
           <documentation>Drangedal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0819">
+        <annotation>
+          <documentation>Nome (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3816">
         <annotation>
           <documentation>Nome</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0821">
         <annotation>
-          <documentation>Bø i Telemark</documentation>
+          <documentation>Bø i Telemark (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3817">
+        <annotation>
+          <documentation>Midt-Telemark</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0822">
         <annotation>
-          <documentation>Sauherad</documentation>
+          <documentation>Sauherad (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0826">
+        <annotation>
+          <documentation>Tinn (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3818">
         <annotation>
           <documentation>Tinn</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0827">
         <annotation>
+          <documentation>Hjartdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3819">
+        <annotation>
           <documentation>Hjartdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0828">
+        <annotation>
+          <documentation>Seljord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3820">
         <annotation>
           <documentation>Seljord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0829">
         <annotation>
+          <documentation>Kviteseid (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3821">
+        <annotation>
           <documentation>Kviteseid</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0830">
+        <annotation>
+          <documentation>Nissedal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3822">
         <annotation>
           <documentation>Nissedal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0831">
         <annotation>
+          <documentation>Fyresdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3823">
+        <annotation>
           <documentation>Fyresdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0833">
+        <annotation>
+          <documentation>Tokke (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3824">
         <annotation>
           <documentation>Tokke</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0834">
         <annotation>
+          <documentation>Vinje (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3825">
+        <annotation>
           <documentation>Vinje</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0901">
+        <annotation>
+          <documentation>Risør (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4201">
         <annotation>
           <documentation>Risør</documentation>
         </annotation>
@@ -1157,25 +1782,50 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0904">
         <annotation>
+          <documentation>Grimstad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4202">
+        <annotation>
           <documentation>Grimstad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0906">
+        <annotation>
+          <documentation>Arendal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4203">
         <annotation>
           <documentation>Arendal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0911">
         <annotation>
+          <documentation>Gjerstad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4211">
+        <annotation>
           <documentation>Gjerstad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0912">
         <annotation>
+          <documentation>Vegårshei (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4212">
+        <annotation>
           <documentation>Vegårshei</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0914">
+        <annotation>
+          <documentation>Tvedestrand (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4213">
         <annotation>
           <documentation>Tvedestrand</documentation>
         </annotation>
@@ -1186,6 +1836,11 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
         </annotation>
       </enumeration>
       <enumeration value="0919">
+        <annotation>
+          <documentation>Froland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4214">
         <annotation>
           <documentation>Froland</documentation>
         </annotation>
@@ -1207,115 +1862,205 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0926">
         <annotation>
+          <documentation>Lillesand (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4215">
+        <annotation>
           <documentation>Lillesand</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0928">
+        <annotation>
+          <documentation>Birkenes (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4216">
         <annotation>
           <documentation>Birkenes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0929">
         <annotation>
+          <documentation>Åmli (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4217">
+        <annotation>
           <documentation>Åmli</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0935">
+        <annotation>
+          <documentation>Iveland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4218">
         <annotation>
           <documentation>Iveland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0937">
         <annotation>
+          <documentation>Evje og Hornnes (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4219">
+        <annotation>
           <documentation>Evje og Hornnes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0938">
+        <annotation>
+          <documentation>Bygland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4220">
         <annotation>
           <documentation>Bygland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0940">
         <annotation>
+          <documentation>Valle (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4221">
+        <annotation>
           <documentation>Valle</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0941">
+        <annotation>
+          <documentation>Bykle (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4222">
         <annotation>
           <documentation>Bykle</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1001">
         <annotation>
+          <documentation>Kristiansand (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4204">
+        <annotation>
           <documentation>Kristiansand</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1002">
         <annotation>
-          <documentation>Mandal</documentation>
+          <documentation>Mandal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4205">
+        <annotation>
+          <documentation>Lindesnes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1003">
+        <annotation>
+          <documentation>Farsund (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4206">
         <annotation>
           <documentation>Farsund</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1004">
         <annotation>
+          <documentation>Flekkefjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4207">
+        <annotation>
           <documentation>Flekkefjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1014">
+        <annotation>
+          <documentation>Vennesla (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4223">
         <annotation>
           <documentation>Vennesla</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1017">
         <annotation>
-          <documentation>Songdalen</documentation>
+          <documentation>Songdalen (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1018">
         <annotation>
-          <documentation>Søgne</documentation>
+          <documentation>Søgne (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1021">
         <annotation>
-          <documentation>Marnardal</documentation>
+          <documentation>Marnardal (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1026">
+        <annotation>
+          <documentation>Åseral (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4224">
         <annotation>
           <documentation>Åseral</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1027">
         <annotation>
-          <documentation>Audnedal</documentation>
+          <documentation>Audnedal (utgått)</documentation>
         </annotation>
       </enumeration>
-      <enumeration value="1029">
-        <annotation>
-          <documentation>Lindesnes</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="1032">
+      <enumeration value="4225">
         <annotation>
           <documentation>Lyngdal</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="1029">
+        <annotation>
+          <documentation>Lindesnes (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1032">
+        <annotation>
+          <documentation>Lyngdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="1034">
+        <annotation>
+          <documentation>Hægebostad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4226">
         <annotation>
           <documentation>Hægebostad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1037">
         <annotation>
+          <documentation>Kvinesdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4227">
+        <annotation>
           <documentation>Kvinesdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1046">
+        <annotation>
+          <documentation>Sirdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4228">
         <annotation>
           <documentation>Sirdal</documentation>
         </annotation>
@@ -1326,6 +2071,11 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
         </annotation>
       </enumeration>
       <enumeration value="1102">
+        <annotation>
+          <documentation>Sandnes (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1108">
         <annotation>
           <documentation>Sandnes</documentation>
         </annotation>
@@ -1387,7 +2137,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1129">
         <annotation>
-          <documentation>Forsand</documentation>
+          <documentation>Forsand (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1130">
@@ -1412,12 +2162,17 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1141">
         <annotation>
-          <documentation>Finnøy</documentation>
+          <documentation>Finnøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1103">
+        <annotation>
+          <documentation>Stavanger</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1142">
         <annotation>
-          <documentation>Rennesøy</documentation>
+          <documentation>Rennesøy (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1144">
@@ -1462,10 +2217,20 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1201">
         <annotation>
+          <documentation>Bergen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4601">
+        <annotation>
           <documentation>Bergen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1211">
+        <annotation>
+          <documentation>Etne (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4611">
         <annotation>
           <documentation>Etne</documentation>
         </annotation>
@@ -1477,295 +2242,515 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1216">
         <annotation>
+          <documentation>Sveio (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4612">
+        <annotation>
           <documentation>Sveio</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1219">
+        <annotation>
+          <documentation>Bømlo (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4613">
         <annotation>
           <documentation>Bømlo</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1221">
         <annotation>
+          <documentation>Stord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4614">
+        <annotation>
           <documentation>Stord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1222">
+        <annotation>
+          <documentation>Fitjar (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4615">
         <annotation>
           <documentation>Fitjar</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1223">
         <annotation>
+          <documentation>Tysnes (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4616">
+        <annotation>
           <documentation>Tysnes</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1224">
+        <annotation>
+          <documentation>Kvinnherad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4617">
         <annotation>
           <documentation>Kvinnherad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1227">
         <annotation>
-          <documentation>Jondal</documentation>
+          <documentation>Jondal (utgått)</documentation>
         </annotation>
       </enumeration>
-      <enumeration value="1228">
-        <annotation>
-          <documentation>Odda</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="1231">
+      <enumeration value="4618">
         <annotation>
           <documentation>Ullensvang</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="1228">
+        <annotation>
+          <documentation>Odda (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1231">
+        <annotation>
+          <documentation>Ullensvang (utgått)</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="1232">
+        <annotation>
+          <documentation>Eidfjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4619">
         <annotation>
           <documentation>Eidfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1233">
         <annotation>
+          <documentation>Ulvik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4620">
+        <annotation>
           <documentation>Ulvik</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1234">
         <annotation>
-          <documentation>Granvin</documentation>
+          <documentation>Granvin (utgått)</documentation>
         </annotation>
       </enumeration>
-      <enumeration value="1235">
+      <enumeration value="4621">
         <annotation>
           <documentation>Voss</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="1235">
+        <annotation>
+          <documentation>Voss (utgått)</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="1238">
+        <annotation>
+          <documentation>Kvam (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4622">
         <annotation>
           <documentation>Kvam</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1241">
         <annotation>
-          <documentation>Fusa</documentation>
+          <documentation>Fusa (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4624">
+        <annotation>
+          <documentation>Bjørnafjorden</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1242">
+        <annotation>
+          <documentation>Samnanger (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4623">
         <annotation>
           <documentation>Samnanger</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1243">
         <annotation>
-          <documentation>Os i Hordaland</documentation>
+          <documentation>Os i Hordaland (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1244">
+        <annotation>
+          <documentation>Austevoll (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4625">
         <annotation>
           <documentation>Austevoll</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1245">
         <annotation>
-          <documentation>Sund</documentation>
+          <documentation>Sund (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4626">
+        <annotation>
+          <documentation>Øygarden</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1246">
         <annotation>
-          <documentation>Fjell</documentation>
+          <documentation>Fjell (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1247">
+        <annotation>
+          <documentation>Askøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4627">
         <annotation>
           <documentation>Askøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1251">
         <annotation>
+          <documentation>Vaksdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4628">
+        <annotation>
           <documentation>Vaksdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1252">
+        <annotation>
+          <documentation>Modalen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4629">
         <annotation>
           <documentation>Modalen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1253">
         <annotation>
+          <documentation>Osterøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4630">
+        <annotation>
           <documentation>Osterøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1256">
         <annotation>
-          <documentation>Meland</documentation>
+          <documentation>Meland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4631">
+        <annotation>
+          <documentation>Alver</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1259">
         <annotation>
-          <documentation>Øygarden</documentation>
+          <documentation>Øygarden (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1260">
         <annotation>
-          <documentation>Radøy</documentation>
+          <documentation>Radøy (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1263">
         <annotation>
-          <documentation>Lindås</documentation>
+          <documentation>Lindås (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1264">
+        <annotation>
+          <documentation>Austrheim (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4632">
         <annotation>
           <documentation>Austrheim</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1265">
         <annotation>
+          <documentation>Fedje (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4633">
+        <annotation>
           <documentation>Fedje</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1266">
+        <annotation>
+          <documentation>Masfjorden (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4634">
         <annotation>
           <documentation>Masfjorden</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1401">
         <annotation>
-          <documentation>Flora</documentation>
+          <documentation>Flora (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4602">
+        <annotation>
+          <documentation>Kinn</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1411">
+        <annotation>
+          <documentation>Gulen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4635">
         <annotation>
           <documentation>Gulen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1412">
         <annotation>
+          <documentation>Solund (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4636">
+        <annotation>
           <documentation>Solund</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1413">
+        <annotation>
+          <documentation>Hyllestad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4637">
         <annotation>
           <documentation>Hyllestad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1416">
         <annotation>
+          <documentation>Høyanger (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4638">
+        <annotation>
           <documentation>Høyanger</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1417">
+        <annotation>
+          <documentation>Vik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4639">
         <annotation>
           <documentation>Vik</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1418">
         <annotation>
-          <documentation>Balestrand</documentation>
+          <documentation>Balestrand (utgått)</documentation>
         </annotation>
       </enumeration>
-      <enumeration value="1419">
-        <annotation>
-          <documentation>Leikanger</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="1420">
+      <enumeration value="4640">
         <annotation>
           <documentation>Sogndal</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="1419">
+        <annotation>
+          <documentation>Leikanger (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1420">
+        <annotation>
+          <documentation>Sogndal (utgått)</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="1421">
+        <annotation>
+          <documentation>Aurland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4641">
         <annotation>
           <documentation>Aurland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1422">
         <annotation>
+          <documentation>Lærdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4642">
+        <annotation>
           <documentation>Lærdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1424">
+        <annotation>
+          <documentation>Årdal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4643">
         <annotation>
           <documentation>Årdal</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1426">
         <annotation>
+          <documentation>Luster (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4644">
+        <annotation>
           <documentation>Luster</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1428">
+        <annotation>
+          <documentation>Askvoll (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4645">
         <annotation>
           <documentation>Askvoll</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1429">
         <annotation>
+          <documentation>Fjaler (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4646">
+        <annotation>
           <documentation>Fjaler</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1430">
         <annotation>
-          <documentation>Gaular</documentation>
+          <documentation>Gaular (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4647">
+        <annotation>
+          <documentation>Sunnfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1431">
         <annotation>
-          <documentation>Jølster</documentation>
+          <documentation>Jølster (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1432">
         <annotation>
-          <documentation>Førde</documentation>
+          <documentation>Førde (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1433">
         <annotation>
-          <documentation>Naustdal</documentation>
+          <documentation>Naustdal (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1438">
+        <annotation>
+          <documentation>Bremanger (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4648">
         <annotation>
           <documentation>Bremanger</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1439">
         <annotation>
-          <documentation>Vågsøy</documentation>
+          <documentation>Vågsøy (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1441">
         <annotation>
-          <documentation>Selje</documentation>
+          <documentation>Selje (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4649">
+        <annotation>
+          <documentation>Stad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1443">
         <annotation>
-          <documentation>Eid</documentation>
+          <documentation>Eid (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1444">
         <annotation>
-          <documentation>Hornindal</documentation>
+          <documentation>Hornindal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1577">
+        <annotation>
+          <documentation>Volda</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1445">
+        <annotation>
+          <documentation>Gloppen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4650">
         <annotation>
           <documentation>Gloppen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1449">
         <annotation>
+          <documentation>Stryn (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4651">
+        <annotation>
           <documentation>Stryn</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1502">
         <annotation>
+          <documentation>Molde (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1506">
+        <annotation>
           <documentation>Molde</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1504">
+        <annotation>
+          <documentation>Ålesund (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1507">
         <annotation>
           <documentation>Ålesund</documentation>
         </annotation>
@@ -1802,7 +2787,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1519">
         <annotation>
-          <documentation>Volda</documentation>
+          <documentation>Volda (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1520">
@@ -1812,12 +2797,17 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1523">
         <annotation>
-          <documentation>Ørskog</documentation>
+          <documentation>Ørskog (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1524">
         <annotation>
-          <documentation>Norddal</documentation>
+          <documentation>Norddal (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1578">
+        <annotation>
+          <documentation>Fjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1525">
@@ -1827,7 +2817,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1526">
         <annotation>
-          <documentation>Stordal</documentation>
+          <documentation>Stordal (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1528">
@@ -1837,7 +2827,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1529">
         <annotation>
-          <documentation>Skodje</documentation>
+          <documentation>Skodje (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1531">
@@ -1852,7 +2842,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1534">
         <annotation>
-          <documentation>Haram</documentation>
+          <documentation>Haram (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1535">
@@ -1867,17 +2857,17 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1543">
         <annotation>
-          <documentation>Nesset</documentation>
+          <documentation>Nesset (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1545">
         <annotation>
-          <documentation>Midsund</documentation>
+          <documentation>Midsund (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1546">
         <annotation>
-          <documentation>Sandøy</documentation>
+          <documentation>Sandøy (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1547">
@@ -1887,12 +2877,17 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1548">
         <annotation>
-          <documentation>Fræna</documentation>
+          <documentation>Fræna (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1579">
+        <annotation>
+          <documentation>Hustadvika</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1551">
         <annotation>
-          <documentation>Eide</documentation>
+          <documentation>Eide (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1554">
@@ -1937,7 +2932,12 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1571">
         <annotation>
-          <documentation>Halsa</documentation>
+          <documentation>Halsa (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5055">
+        <annotation>
+          <documentation>Heim</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1572">
@@ -2212,6 +3212,11 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1805">
         <annotation>
+          <documentation>Narvik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1806">
+        <annotation>
           <documentation>Narvik</documentation>
         </annotation>
       </enumeration>
@@ -2347,12 +3352,17 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1849">
         <annotation>
-          <documentation>Hamarøy – Hábmer</documentation>
+          <documentation>Hamarøy – Hábmer (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1875">
+        <annotation>
+          <documentation>Hamarøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1850">
         <annotation>
-          <documentation>Divtasvuodna – Tysfjord</documentation>
+          <documentation>Divtasvuodna – Tysfjord (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1851">
@@ -2361,6 +3371,11 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
         </annotation>
       </enumeration>
       <enumeration value="1852">
+        <annotation>
+          <documentation>Tjeldsund (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5412">
         <annotation>
           <documentation>Tjeldsund</documentation>
         </annotation>
@@ -2372,7 +3387,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1854">
         <annotation>
-          <documentation>Ballangen</documentation>
+          <documentation>Ballangen (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1856">
@@ -2437,22 +3452,37 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1902">
         <annotation>
+          <documentation>Tromsø (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5401">
+        <annotation>
           <documentation>Tromsø</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1903">
         <annotation>
-          <documentation>Harstad – Hárstták</documentation>
+          <documentation>Harstad – Hárstták (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5402">
+        <annotation>
+          <documentation>Harstad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1911">
+        <annotation>
+          <documentation>Kvæfjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5411">
         <annotation>
           <documentation>Kvæfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1913">
         <annotation>
-          <documentation>Skånland</documentation>
+          <documentation>Skånland (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1915">
@@ -2462,100 +3492,185 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="1917">
         <annotation>
+          <documentation>Ibestad (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5413">
+        <annotation>
           <documentation>Ibestad</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1919">
+        <annotation>
+          <documentation>Gratangen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5414">
         <annotation>
           <documentation>Gratangen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1920">
         <annotation>
-          <documentation>Loabák – Lavangen</documentation>
+          <documentation>Loabák – Lavangen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5415">
+        <annotation>
+          <documentation>Lavangen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1922">
+        <annotation>
+          <documentation>Bardu (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5416">
         <annotation>
           <documentation>Bardu</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1923">
         <annotation>
+          <documentation>Salangen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5417">
+        <annotation>
           <documentation>Salangen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1924">
+        <annotation>
+          <documentation>Målselv (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5418">
         <annotation>
           <documentation>Målselv</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1925">
         <annotation>
+          <documentation>Sørreisa (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5419">
+        <annotation>
           <documentation>Sørreisa</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1926">
+        <annotation>
+          <documentation>Dyrøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5420">
         <annotation>
           <documentation>Dyrøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1927">
         <annotation>
-          <documentation>Tranøy</documentation>
+          <documentation>Tranøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5421">
+        <annotation>
+          <documentation>Senja</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1928">
         <annotation>
-          <documentation>Torsken</documentation>
+          <documentation>Torsken (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1929">
         <annotation>
-          <documentation>Berg</documentation>
+          <documentation>Berg (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1931">
         <annotation>
-          <documentation>Lenvik</documentation>
+          <documentation>Lenvik (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1933">
+        <annotation>
+          <documentation>Balsfjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5422">
         <annotation>
           <documentation>Balsfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1936">
         <annotation>
+          <documentation>Karlsøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5423">
+        <annotation>
           <documentation>Karlsøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1938">
+        <annotation>
+          <documentation>Lyngen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5424">
         <annotation>
           <documentation>Lyngen</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1939">
         <annotation>
-          <documentation>Storfjord – Omasvuotna – Omasvuono</documentation>
+          <documentation>Storfjord – Omasvuotna – Omasvuono (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5425">
+        <annotation>
+          <documentation>Storfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1940">
         <annotation>
-          <documentation>Gáivuotna – Kåfjord – Kaivuono</documentation>
+          <documentation>Gáivuotna – Kåfjord – Kaivuono (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5426">
+        <annotation>
+          <documentation>Kåfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1941">
+        <annotation>
+          <documentation>Skjervøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5427">
         <annotation>
           <documentation>Skjervøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1942">
         <annotation>
+          <documentation>Nordreisa (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5428">
+        <annotation>
           <documentation>Nordreisa</documentation>
         </annotation>
       </enumeration>
       <enumeration value="1943">
+        <annotation>
+          <documentation>Kvænangen (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5429">
         <annotation>
           <documentation>Kvænangen</documentation>
         </annotation>
@@ -2567,35 +3682,70 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="2002">
         <annotation>
+          <documentation>Vardø (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5404">
+        <annotation>
           <documentation>Vardø</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2003">
+        <annotation>
+          <documentation>Vadsø (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5405">
         <annotation>
           <documentation>Vadsø</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2004">
         <annotation>
+          <documentation>Hammerfest (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5406">
+        <annotation>
           <documentation>Hammerfest</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2011">
         <annotation>
-          <documentation>Guovdageaidnu – Kautokeino</documentation>
+          <documentation>Guovdageaidnu – Kautokeino (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5430">
+        <annotation>
+          <documentation>Kautokeino</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2012">
+        <annotation>
+          <documentation>Alta (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5403">
         <annotation>
           <documentation>Alta</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2014">
         <annotation>
+          <documentation>Loppa (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5432">
+        <annotation>
           <documentation>Loppa</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2015">
+        <annotation>
+          <documentation>Hasvik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5433">
         <annotation>
           <documentation>Hasvik</documentation>
         </annotation>
@@ -2607,60 +3757,115 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="2017">
         <annotation>
-          <documentation>Kvalsund</documentation>
+          <documentation>Kvalsund (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2018">
+        <annotation>
+          <documentation>Måsøy (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5434">
         <annotation>
           <documentation>Måsøy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2019">
         <annotation>
+          <documentation>Nordkapp (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5435">
+        <annotation>
           <documentation>Nordkapp</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2020">
         <annotation>
-          <documentation>Porsanger – Porsá?gu – Porsanki</documentation>
+          <documentation>Porsanger – Porsá?gu – Porsanki (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5436">
+        <annotation>
+          <documentation>Porsanger</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2021">
         <annotation>
-          <documentation>Kárášjohka – Karasjok</documentation>
+          <documentation>Kárášjohka – Karasjok (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5437">
+        <annotation>
+          <documentation>Karasjok</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2022">
+        <annotation>
+          <documentation>Lebesby (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5438">
         <annotation>
           <documentation>Lebesby</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2023">
         <annotation>
+          <documentation>Gamvik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5439">
+        <annotation>
           <documentation>Gamvik</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2024">
+        <annotation>
+          <documentation>Berlevåg (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5440">
         <annotation>
           <documentation>Berlevåg</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2025">
         <annotation>
-          <documentation>Deatnu – Tana</documentation>
+          <documentation>Deatnu – Tana (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5441">
+        <annotation>
+          <documentation>Tana</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2027">
         <annotation>
-          <documentation>Unjárga – Nesseby</documentation>
+          <documentation>Unjárga – Nesseby (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5442">
+        <annotation>
+          <documentation>Nesseby</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2028">
+        <annotation>
+          <documentation>Båtsfjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5443">
         <annotation>
           <documentation>Båtsfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2030">
+        <annotation>
+          <documentation>Sør-Varanger (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5444">
         <annotation>
           <documentation>Sør-Varanger</documentation>
         </annotation>
@@ -2707,25 +3912,45 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5004">
         <annotation>
+          <documentation>Steinkjer (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5006">
+        <annotation>
           <documentation>Steinkjer</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5005">
+        <annotation>
+          <documentation>Namsos (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5007">
         <annotation>
           <documentation>Namsos</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5011">
         <annotation>
-          <documentation>Hemne</documentation>
+          <documentation>Hemne (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5012">
         <annotation>
-          <documentation>Snillfjord</documentation>
+          <documentation>Snillfjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5059">
+        <annotation>
+          <documentation>Orkland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5013">
+        <annotation>
+          <documentation>Hitra (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5056">
         <annotation>
           <documentation>Hitra</documentation>
         </annotation>
@@ -2737,27 +3962,37 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5015">
         <annotation>
+          <documentation>Ørland (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5057">
+        <annotation>
           <documentation>Ørland</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5016">
         <annotation>
-          <documentation>Agdenes</documentation>
+          <documentation>Agdenes (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5017">
         <annotation>
-          <documentation>Bjugn</documentation>
+          <documentation>Bjugn (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5018">
+        <annotation>
+          <documentation>Åfjord (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5058">
         <annotation>
           <documentation>Åfjord</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5019">
         <annotation>
-          <documentation>Roan</documentation>
+          <documentation>Roan (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5020">
@@ -2777,12 +4012,12 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5023">
         <annotation>
-          <documentation>Meldal</documentation>
+          <documentation>Meldal (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5024">
         <annotation>
-          <documentation>Orkdal</documentation>
+          <documentation>Orkdal (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5025">
@@ -2812,7 +4047,12 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5030">
         <annotation>
-          <documentation>Klæbu</documentation>
+          <documentation>Klæbu (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5001">
+        <annotation>
+          <documentation>Trondheim</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5031">
@@ -2857,12 +4097,12 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5039">
         <annotation>
-          <documentation>Verran</documentation>
+          <documentation>Verran (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5040">
         <annotation>
-          <documentation>Namdalseid</documentation>
+          <documentation>Namdalseid (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5041">
@@ -2902,7 +4142,7 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5048">
         <annotation>
-          <documentation>Frosnes</documentation>
+          <documentation>Frosnes (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5049">
@@ -2912,12 +4152,17 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="5050">
         <annotation>
-          <documentation>Vikna</documentation>
+          <documentation>Vikna (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5060">
+        <annotation>
+          <documentation>Nærøysund</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5051">
         <annotation>
-          <documentation>Nærøy</documentation>
+          <documentation>Nærøy (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="5052">
@@ -2937,15 +4182,25 @@ Merknad: Det presiseres at kommune alltid skal ha 4 sifre, dvs. eventuelt med le
       </enumeration>
       <enumeration value="0712">
         <annotation>
+          <documentation>Larvik (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3805">
+        <annotation>
           <documentation>Larvik</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0715">
         <annotation>
-          <documentation>Holmestrand</documentation>
+          <documentation>Holmestrand (utgått)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="0729">
+        <annotation>
+          <documentation>Færder (utgått)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3811">
         <annotation>
           <documentation>Færder</documentation>
         </annotation>
@@ -3338,6 +4593,121 @@ Tilsvarer Inspire temaet "protctedSite".</documentation>
       <documentation>Navneobjekttypene som stedsnavn er delt inn i.</documentation>
     </annotation>
     <restriction base="string">
+      <enumeration value="eiendomsteig">
+        <annotation>
+          <documentation>eiendomsteig</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="våtmarksområde">
+        <annotation>
+          <documentation>våtmarksområde</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="busstasjon">
+        <annotation>
+          <documentation>busstasjon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="vannstandsmåler">
+        <annotation>
+          <documentation>vannstandsmåler</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="friluftsområde">
+        <annotation>
+          <documentation>friluftsområde</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="sjømerkeMedIndirekteBelysning">
+        <annotation>
+          <documentation>sjømerkeMedIndirekteBelysning</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="reinbeitedistrikt">
+        <annotation>
+          <documentation>reinbeitedistrikt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="boinstitusjon">
+        <annotation>
+          <documentation>boinstitusjon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="egg">
+        <annotation>
+          <documentation>egg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="fjellvegg">
+        <annotation>
+          <documentation>fjellvegg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="delAvVann">
+        <annotation>
+          <documentation>delAvVann</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="jernbanebru">
+        <annotation>
+          <documentation>jernbanebru</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="jernbanetunnel">
+        <annotation>
+          <documentation>jernbanetunnel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="helikopterlandingsplass">
+        <annotation>
+          <documentation>helikopterlandingsplass</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="kulturMessehall">
+        <annotation>
+          <documentation>kulturMessehall</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="overbygg">
+        <annotation>
+          <documentation>overbygg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="mindreBrukonstruksjon">
+        <annotation>
+          <documentation>mindreBrukonstruksjon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="stølsSetereiendom">
+        <annotation>
+          <documentation>stølsSetereiendom</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="tuft">
+        <annotation>
+          <documentation>tuft</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="vannverk">
+        <annotation>
+          <documentation>vannverk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="hammar">
+        <annotation>
+          <documentation>hammar</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="fjellovergang">
+        <annotation>
+          <documentation>fjellovergang</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="sva">
+        <annotation>
+          <documentation>sva</documentation>
+        </annotation>
+      </enumeration>	
       <enumeration value="administrativBydel">
         <annotation>
           <documentation>Administrativ bydel: Offisielt navn på bydelsforvaltningen i et angitt område.</documentation>
@@ -4676,6 +6046,120 @@ Tilsvarer Inspire temaet "protctedSite".</documentation>
       <enumeration value="ås">
         <annotation>
           <documentation>Ås: Langstrakt høydedrag.</documentation>
+        </annotation>
+      </enumeration>
+	        <enumeration value="eiendomsteig">
+        <annotation>
+          <documentation>eiendomsteig</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="våtmarksområde">
+        <annotation>
+          <documentation>våtmarksområde</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="busstasjon">
+        <annotation>
+          <documentation>busstasjon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="vannstandsmåler">
+        <annotation>
+          <documentation>vannstandsmåler</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="friluftsområde">
+        <annotation>
+          <documentation>friluftsområde</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="sjømerkeMedIndirekteBelysning">
+        <annotation>
+          <documentation>sjømerkeMedIndirekteBelysning</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="reinbeitedistrikt">
+        <annotation>
+          <documentation>reinbeitedistrikt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="boinstitusjon">
+        <annotation>
+          <documentation>boinstitusjon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="egg">
+        <annotation>
+          <documentation>egg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="fjellvegg">
+        <annotation>
+          <documentation>fjellvegg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="delAvVann">
+        <annotation>
+          <documentation>delAvVann</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="jernbanebru">
+        <annotation>
+          <documentation>jernbanebru</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="jernbanetunnel">
+        <annotation>
+          <documentation>jernbanetunnel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="helikopterlandingsplass">
+        <annotation>
+          <documentation>helikopterlandingsplass</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="kulturMessehall">
+        <annotation>
+          <documentation>kulturMessehall</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="overbygg">
+        <annotation>
+          <documentation>overbygg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="mindreBrukonstruksjon">
+        <annotation>
+          <documentation>mindreBrukonstruksjon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="stølsSetereiendom">
+        <annotation>
+          <documentation>stølsSetereiendom</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="tuft">
+        <annotation>
+          <documentation>tuft</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="vannverk">
+        <annotation>
+          <documentation>vannverk</documentation>
+        </annotation>
+      </enumeration>      <enumeration value="hammar">
+        <annotation>
+          <documentation>hammar</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="fjellovergang">
+        <annotation>
+          <documentation>fjellovergang</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="sva">
+        <annotation>
+          <documentation>sva</documentation>
         </annotation>
       </enumeration>
     </restriction>
